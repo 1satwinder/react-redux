@@ -14,7 +14,7 @@ export const CounterButton = () => {
 		<label>
 			Increment By:
 			<input
-				value={incrementBy}
+				value={incrementBy} 
 				onChange={e => setIncrementBy(Number(e.target.value))}
 				type="text" />
 		</label>
